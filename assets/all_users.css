@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(28, 29, 28);
+    background: linear-gradient(90deg, rgba(28, 29, 28, 1) 30%, rgba(86, 91, 89, 1) 73%);
+}
+
+.msg-container {
+    position: relative;
+    left: 40%;
+    margin-top: 15%;
+}
+
+.msg-container p {
+    color: rgb(255, 254, 254);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.msg-container button {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    margin-top: 3%;
+    left: 5%;
+    background-color: greenyellow;
+    border: 0;
+}
+
+.msg-container button:hover {
+    transform: scale(1.2);
+}
+
+.msg-container a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+table {
+    position: relative;
+    left: 10%;
+    width: 75%;
+    color: white;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: rgba(16, 16, 17, 0.8);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(16, 16, 17, 0.6);
+
+}
+
+tr:hover {
+    background-color: rgba(16, 16, 17, 0.9);
+}
+
+td>button {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    background-color: greenyellow;
+    border: 0;
+    border-radius: 5px;
+}
+
+td>button:hover {
+    transform: scale(1.2);
+}
+
+td>button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#send {
+    background-color: white;
+}
+
+#send a {
+    color: rgb(48, 255, 2);
+}
+
+/* for show all transactions */
+#transaction_status {
+    color: greenyellow;
+}

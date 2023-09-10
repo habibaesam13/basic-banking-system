@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(16, 16, 17);
+    background: linear-gradient(90deg, rgba(16, 16, 17, 1) 0%, rgba(51, 51, 59, 1) 44%, rgba(99, 133, 91, 1) 100%);
+}
+
+.logo {
+    position: relative;
+    left: 7%;
+    padding-top: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+#logo-p1 {
+    color: white;
+    font-weight: bold;
+}
+
+#logo-p2 {
+    color: greenyellow;
+    font-weight: bold;
+}
+
+.links {
+    position: relative;
+    left: 45%;
+    margin-top: -1.2%;
+}
+
+.links a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    margin-left: 3%;
+    font-weight: bold;
+}
+
+.links>a:hover {
+    color: greenyellow;
+}
+
+.links>button {
+    width: 90px;
+    height: 30px;
+    margin-left: 3%;
+    background-color: greenyellow;
+    border: 0;
+    border-radius: 5px;
+}
+
+.links button:hover {
+    transform: scale(1.1);
+}
+
+.links>button a {
+    color: black;
+    font-weight: bold;
+}
+
+.head {
+    position: relative;
+    left: 6%;
+    margin-top: 5%;
+}
+
+.head p span {
+    color: greenyellow;
+}
+
+.head p {
+    font-size: 65px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+}
+
+.desc-head {
+    position: relative;
+    left: 6%;
+    margin-top: 1%;
+}
+
+.desc-head p {
+    color: rgb(193, 185, 185);
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.people {
+    position: relative;
+    left: 6%;
+    background: rgb(28, 29, 28);
+    background: linear-gradient(90deg, rgba(28, 29, 28, 1) 0%, rgba(77, 87, 77, 1) 58%, rgba(102, 106, 102, 1) 100%);
+    margin-top: 3%;
+    border-radius: 10px;
+    width: 370px;
+    padding-bottom: 2%;
+}
+
+.icon {
+    color: greenyellow;
+    font-size: 45px;
+    display: flex;
+    position: relative;
+    left: 5%;
+    margin-top: 5%;
+}
+
+.people p {
+    position: relative;
+    left: 18%;
+    margin-top: -10%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.bank-pho {
+    position: relative;
+    left: 55%;
+    margin-top: -23%;
+}
+
+.bank-pho i {
+    color: rgb(196, 242, 127);
+    font-size: 400px;
+}
+
+.footer {
+    position: relative;
+    left: 35%;
+    margin-top: 9%;
+}
+
+.footer>p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.icon-git {
+    position: relative;
+    left: .3%;
+    color: greenyellow;
+    font-size: 20px;
+}

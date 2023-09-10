@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(28, 29, 28);
+    background: linear-gradient(90deg, rgba(28, 29, 28, 1) 30%, rgba(86, 91, 89, 1) 73%);
+}
+
+.container {
+    position: relative;
+    left: 30%;
+    width: 45%;
+    padding-bottom: 5%;
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background: rgb(28, 29, 28);
+    background: linear-gradient(90deg, rgba(28, 29, 28, 1) 0%, rgba(77, 87, 77, 1) 58%, rgba(102, 106, 102, 1) 100%);
+}
+
+.container>p {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    left: 20%;
+    text-transform: capitalize;
+    padding-top: 3%;
+}
+
+.container p>span {
+    color: greenyellow;
+}
+
+#logo-p1 {
+    color: white;
+    font-weight: bold;
+}
+
+#logo-p2 {
+    color: greenyellow;
+    font-weight: bold;
+}
+
+#balance_not_enough {
+    color: red;
+    font-size: 14px;
+}
+
+.depos-btn,#back {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 21%;
+    width: 150px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+#back{
+    left: -18%;
+}
+
+.depos-btn>a,#back a {
+    text-decoration: none;
+    color: black;
+}
+
+form {
+    position: relative;
+    left: 20%;
+    margin-top: 2%;
+}
+
+label {
+    text-align: center;
+    color: greenyellow;
+    padding-bottom: 1%;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    margin-top: 1%;
+    width: 30%;
+    height: 30px;
+    border: 0;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.btn {
+    margin-top: 3%;
+    margin-bottom: 1.5%;
+    margin-left: 1%;
+    position: relative;
+    width: 150px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.error {
+    color: red;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* for deposit page */
+.session-error {
+    position: relative;
+    left: 20%;
+    color: red;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 2%;
+    font-size: 16px;
+}
+
+.session-success {
+    color: greenyellow;
+    position: relative;
+    left: 20%;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 2%;
+    font-size: 16px;
+}
+
+.deposit,
+.back-btn {
+    margin-left: 3%;
+}
