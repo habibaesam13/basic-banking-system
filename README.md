@@ -10,3 +10,5 @@ Transfers table will record all transfers happened.
 Flow: Home Page > View all Customers > Select and View one Customer > Transfer Money > Select customer to transfer to > View all Customers. 
 • No Login Page. No User Creation. Only transfer of money between multiple users.
 
+#video 
+https://github.com/habibaesam13/basic-banking-system/assets/111433697/27528432-a090-4821-a587-e8eaa30ef06e
